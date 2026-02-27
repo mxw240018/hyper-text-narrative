@@ -2,14 +2,61 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Website Template</title>
+	<title>MOUSEY MARACA!!</title>
+<style>
+	body {
+		font-family: 'Helvetica', 'Arial', sans-serif;
+		background-color: pink;
+		color: green;	
+	}
+
+	div {
+			font-weight: bold;
+			font-size: 60px;
+			transform: rotate(2deg);
+			/* use positive margins to increase space between lines of block level elements */
+			margin-top: 35px;
+			margin-bottom: 35px;
+		}
+	h1 {
+			color: aquamarine;
+			font-weight: bold;
+			font-size: 220px;
+			letter-spacing: 12px;
+			/* negative margins decrease space between lines */
+			margin-top: -80px;
+			margin-bottom: -80px;
+		}
+
+		.offset {
+			/* Increases left margin to move elements to the right */
+			margin-left: 30px;
+		}
+
+		/* these rules change only span tags inside of tags with offset class */
+		.offset span {
+			display: inline-block;
+			transform: rotate(12deg);
+		}
+</style>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap" rel="stylesheet">
+
 	<link rel="stylesheet" href="./assets/css/styles.css">
 </head>
+
 <body>
 
-	<h1>Website Template</h1>
+	<h1>MOUSEY MARACA!!!!!!!</h1>
 	<p>Fork and use this template repo (a.k.a. "boilerplate") for any web project</p>
 	<img src="assets/img/cat.jpg" alt="">
+	<div class="backgroundImage"></div>
+
+	h1 {
+		
+	}
 
 	<script src="./assets/js/main.js"></script>
 </body>

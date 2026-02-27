@@ -3,3 +3,9 @@
 * {
 	font-family: Arial;
 }
+ h1 {
+  font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
