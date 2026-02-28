@@ -3,9 +3,16 @@
 * {
 	font-family: Arial;
 }
+
  h1 {
   font-family: "Merienda", cursive;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
+}
+
+body { color: purple; }
+h1 {
+  color: red;
+  font-weight: bold;
 }
