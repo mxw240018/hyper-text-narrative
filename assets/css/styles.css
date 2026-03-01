@@ -11,8 +11,17 @@
   font-style: normal;
 }
 
-body { color: purple; }
+body { color: #533a7b; }
+
 h1 {
-  color: red;
+  color: #6969b3;
   font-weight: bold;
+}
+
+h2 {
+
+}
+
+h3 {
+
 }
